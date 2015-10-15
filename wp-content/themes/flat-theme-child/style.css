@@ -1,0 +1,20 @@
+/*
+ Theme Name:   Flat Theme LunarCannon Child
+ Description:  Flat Theme for LunarCannon
+ Author:       Ti Kawamoto
+ Author URI:   http://www.lunarcannon.com
+ Template:     flat-theme
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  flattheme
+*/
+
+h2 {
+	
+	color:green;
+}
+.navbar-brand{
+	max-width:350px !important;
+}

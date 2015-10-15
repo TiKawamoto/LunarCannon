@@ -38,7 +38,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Jetpack Development Mode */
-( 'JETPACK_DEV_DEBUG', true);
+define( 'JETPACK_DEV_DEBUG', true);
 
 /**#@+
  * Authentication Unique Keys and Salts.

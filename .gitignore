@@ -45,5 +45,8 @@ Temporary Items
 
 # Wordpress Files
 wp-config.php
-!wp-content/
-.htdoc
+wp-content/uploads
+wp-content/themes/twenty*
+wp-content/upgrade
+/sitemap.*
+*.sql

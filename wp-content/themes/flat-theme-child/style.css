@@ -13,11 +13,6 @@
 body {
 	padding-top:50px !important;
 }
-
-h2 {
-	
-	color:green;
-}
 .navbar-brand{
 	max-width:300px !important;
 }
@@ -61,7 +56,19 @@ h2 {
 .herotitle{
 	margin:0px;
 }
+.contact-lc{
+	text-align:center;
+	color:#ffffff;
+	margin-top:0px;
+}
+.contactcopy-lc{
+	text-align:center;
+	color:#ffffff;
+}
 
+.contactform-lc{
+	background-color:#e74c3c;
+}
 
 /* Media Query */
 

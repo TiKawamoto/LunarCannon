@@ -10,6 +10,10 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  flattheme
 */
+body {
+	padding-top:50px !important;
+}
+
 h2 {
 	
 	color:green;
@@ -32,4 +36,59 @@ h2 {
 
 #title{
 	background: url('http://localhost:8080/LunarCannon/wp-content/uploads/2013/09/lunarcannon_composite4.jpg') !important;
+}
+
+#main-slider .next, #main-slider .prev{
+	display:none !important;
+}
+
+.carousel-indicators{
+	display:none !important;
+}
+
+.herohead{
+	height:200px;
+	background-position-y:50% !important;
+	background-repeat:no-repeat;
+}
+
+.herocontainer{
+	max-width:1170px;
+	margin:auto;
+	padding-top:125px;
+}
+
+.herotitle{
+	margin:0px;
+}
+
+
+/* Media Query */
+
+@media (min-width: 768px){
+	
+body{
+	padding-top:50px !important;
+}
+.herocontainer {
+	padding-left:15px;
+	padding-right:15px;
+    max-width: 750px;
+}
+}
+
+@media (min-width: 992px){
+.herocontainer {
+    max-width: 970px;
+	padding-left:15px;
+	padding-right:15px;
+}
+}
+
+@media (min-width: 1200px){
+.herocontainer {
+    max-width: 1170px;
+	padding-left:15px;
+	padding-right:15px;
+}
 }

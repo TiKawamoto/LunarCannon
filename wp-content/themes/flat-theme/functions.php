@@ -51,7 +51,6 @@ require_once( get_template_directory()  . '/lib/widgets.php');
 require_once( get_template_directory()  . '/admin/plugin-setup.php');
 
 // 
-/*
 add_action('after_setup_theme', function(){
 
     // load textdomain
@@ -72,7 +71,6 @@ add_action('after_setup_theme', function(){
     add_theme_support( 'automatic-feed-links' );
 
 });
-*/
 
 if ( is_singular() && get_option( 'thread_comments' ) ){
     wp_enqueue_script( 'comment-reply' );

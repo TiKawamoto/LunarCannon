@@ -10,11 +10,26 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  flattheme
 */
-
 h2 {
 	
 	color:green;
 }
 .navbar-brand{
-	max-width:350px !important;
+	max-width:300px !important;
+}
+
+.emerald{
+	background-color:#fff !important;
+}
+
+#services{
+	color:#000 !important;
+}
+
+#services h3{
+	color:#000 !important;
+}
+
+#title{
+	background: url('http://localhost:8080/LunarCannon/wp-content/uploads/2013/09/lunarcannon_composite4.jpg') !important;
 }

@@ -37,6 +37,12 @@ body {
 	display:none !important;
 }
 
+#main-slider .carousel .btn {
+	background-color: #e74c3c;
+	border: none !important;
+	font-size: 20px !important;		
+}
+
 .carousel-indicators{
 	display:none !important;
 }

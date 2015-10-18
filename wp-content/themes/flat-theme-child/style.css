@@ -40,7 +40,13 @@ body {
 #main-slider .carousel .btn {
 	background-color: #e74c3c;
 	border: none !important;
-	font-size: 20px !important;		
+	font-size: 20px !important;
+    padding: 8px 25px;	
+}
+
+#main-slider .carousel .btn:hover {
+	background: #8E2C29 !important;
+	color:#fff;	
 }
 
 .carousel-indicators{
@@ -62,19 +68,94 @@ body {
 .herotitle{
 	margin:0px;
 }
+
+a.contactanchor{
+	top: -98px;
+    display: block;
+    position: relative;
+}
+
 .contact-lc{
 	text-align:center;
 	color:#ffffff;
 	margin-top:0px;
+	margin-bottom:3px;
 }
 .contactcopy-lc{
 	text-align:center;
 	color:#ffffff;
 }
+.contactcopy-lc-panel{
+	text-align:left;
+	color:#ffffff;
+}
 
 .contactform-lc{
-	background-color:#e74c3c;
+	background-color:#D9534F;
 }
+
+.grunion-field-label{
+	color:#fff;
+	font-size:18px;
+	font-weight:400 !important;
+}
+
+.contact-form label span{
+	color:#fff !important;
+	font-weight:300 !important;
+}
+
+#g20-yourname{
+	width:100% !important;
+    border: none;
+    border-radius: 2px;
+	padding: 5px 10px;
+}
+
+#g20-youremail{
+	width:100% !important;
+    border: none;
+    border-radius: 2px;
+	padding: 5px 10px;
+}
+
+#g20-yournumber{
+	width:100% !important;
+	border: none;
+    border-radius: 2px;
+	padding: 5px 10px;
+}
+
+#g20-yourwebsite{
+	width:100% !important;
+	border: none;
+    border-radius: 2px;
+	padding: 5px 10px;
+}
+
+#contact-form-comment-g20-tellussomething{
+	width:100% !important;
+	border: none;
+    border-radius: 2px;
+	padding: 5px 10px;
+}
+.pushbutton-wide{
+	background: #FFF;
+    border: none;
+    padding: 5px 30px;
+    font-size: 18px;
+    float: right;
+	color:#D9534F;
+	font-weight:500;
+	transition:.3s;
+}
+
+.pushbutton-wide:hover{
+	background: #8E2C29;
+	color:#fff;
+	transition:.3s;
+}
+
 
 /* Media Query */
 

@@ -18,20 +18,22 @@ body {
 }
 
 .emerald{
-	background-color:#fff !important;
+	background-color:#D9534F !important;
+	padding: 60px 0 25px 0px;
 }
-
+.emerald p{
+	font-size:18px;
+}
 #services{
 	color:#000 !important;
+	background-color:#fff !important;
 }
 
 #services h3{
 	color:#000 !important;
 }
 
-#title{
-	background: url('http://localhost:8080/LunarCannon/wp-content/uploads/2013/09/lunarcannon_composite4.jpg') !important;
-}
+/* Slider */
 
 #main-slider .next, #main-slider .prev{
 	display:none !important;
@@ -42,6 +44,10 @@ body {
 	border: none !important;
 	font-size: 20px !important;
     padding: 8px 25px;	
+}
+
+#main-slider a{
+	transition: 300ms;
 }
 
 #main-slider .carousel .btn:hover {
@@ -69,6 +75,36 @@ body {
 	margin:0px;
 }
 
+/* About */
+.about-lc{
+	text-align:left;
+	color:#333;
+	margin-top:0px;
+	margin-bottom:3px;
+}
+.aboutcopy-lc{
+	text-align:center;
+	color:#333;
+}
+.aboutpanelcopy-lc{
+	font-size:18px;
+	text-align:left;
+	color:#333;
+}
+.aboutpanelcopy-lc a{
+	font-weight:500;
+	color:#D9534F !important;
+}
+.aboutpanelcopy-lc a:hover{
+	color:#A12E2A !important;
+}
+.aboutdiv-lc{
+	background-color:#F5F5F5;
+	margin-bottom:15px;
+}
+
+
+/* Contact */
 a.contactanchor{
 	top: -98px;
     display: block;
@@ -92,6 +128,7 @@ a.contactanchor{
 
 .contactform-lc{
 	background-color:#D9534F;
+    padding-bottom: 15px;	
 }
 
 .grunion-field-label{
@@ -140,22 +177,29 @@ a.contactanchor{
 	padding: 5px 10px;
 }
 .pushbutton-wide{
-	background: #FFF;
+	background: #8E2C29;
     border: none;
-    padding: 5px 30px;
+    padding: 10px 40px;
     font-size: 18px;
     float: right;
-	color:#D9534F;
+	color:#FFF;
 	font-weight:500;
 	transition:.3s;
 }
 
 .pushbutton-wide:hover{
-	background: #8E2C29;
-	color:#fff;
+	background: #FFF;
+	color:#D9534F;
 	transition:.3s;
 }
 
+/* Footer */
+
+.footer-logo{
+	width: 150px;
+    margin-bottom: 5px;
+    opacity: .7;
+}
 
 /* Media Query */
 

@@ -17,6 +17,14 @@ body {
 	max-width:300px !important;
 }
 
+/* Temp stuff */
+.navbar-toggle {
+    margin-top: 25px;
+    display: none;
+}
+
+/* End temp stuff */
+
 .emerald{
 	background-color:#D9534F !important;
 	padding: 60px 0 25px 0px;
@@ -199,6 +207,12 @@ a.contactanchor{
 	width: 150px;
     margin-bottom: 5px;
     opacity: .7;
+}
+
+/* About Page */
+.about-page-copy{
+	font-size: 18px;
+	font-weight:400;
 }
 
 /* Media Query */

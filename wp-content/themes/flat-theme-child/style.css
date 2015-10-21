@@ -50,8 +50,8 @@ body {
 #main-slider .carousel .btn {
 	background-color: #e74c3c;
 	border: none !important;
-	font-size: 20px !important;
-    padding: 8px 25px;	
+	font-size: 25px !important;
+    padding: 15px 85px;	
 }
 
 #main-slider a{
@@ -195,12 +195,13 @@ a.contactanchor{
 .pushbutton-wide{
 	background: #8E2C29;
     border: none;
-    padding: 10px 40px;
-    font-size: 18px;
-    float: right;
+    padding: 10px 100px;
+    font-size: 25px;
 	color:#FFF;
 	font-weight:500;
 	transition:.3s;
+	display:block;
+	margin:auto;
 }
 
 .pushbutton-wide:hover{
@@ -235,6 +236,24 @@ body{
 	padding-right:15px;
     max-width: 750px;
 }
+
+#main-slider .carousel .btn {
+	background-color: #e74c3c;
+	border: none !important;
+	font-size: 20px !important;
+    padding: 10px 40px;	
+}
+
+.pushbutton-wide{
+	background: #8E2C29;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    float: right;
+	color:#FFF;
+	font-weight:500;
+	transition:.3s;
+}
 }
 
 @media (min-width: 992px){
@@ -243,6 +262,24 @@ body{
 	padding-left:15px;
 	padding-right:15px;
 }
+
+#main-slider .carousel .btn {
+	background-color: #e74c3c;
+	border: none !important;
+	font-size: 20px !important;
+    padding: 10px 40px;	
+}
+
+.pushbutton-wide{
+	background: #8E2C29;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    float: right;
+	color:#FFF;
+	font-weight:500;
+	transition:.3s;
+}
 }
 
 @media (min-width: 1200px){
@@ -250,5 +287,23 @@ body{
     max-width: 1170px;
 	padding-left:15px;
 	padding-right:15px;
+}
+
+#main-slider .carousel .btn {
+	background-color: #e74c3c;
+	border: none !important;
+	font-size: 20px !important;
+    padding: 10px 45px;	
+}
+
+.pushbutton-wide{
+	background: #8E2C29;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    float: right;
+	color:#FFF;
+	font-weight:500;
+	transition:.3s;
 }
 }

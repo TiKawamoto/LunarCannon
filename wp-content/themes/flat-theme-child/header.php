@@ -6,7 +6,9 @@
   <title><?php wp_title( '|', true, 'right' ); ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/html5shiv.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/respond.min.js"></script>
 <![endif]-->       

@@ -111,6 +111,14 @@ body {
 	margin-bottom:15px;
 }
 
+.main-icon{
+	color:#D9534F;
+	font-size:225px;
+}
+.about-img{
+	max-width:525px;
+	margin:auto;
+}
 
 /* Contact */
 a.contactanchor{

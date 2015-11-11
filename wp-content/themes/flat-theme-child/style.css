@@ -241,6 +241,7 @@ a.contactanchor{
 	font-size:21px;
 	line-height:1.58;
 	letter-spacing:-0.003em;
+	margin-bottom:20px !important;
 }
 
 .entry-title{
@@ -258,6 +259,7 @@ a.contactanchor{
 .entry-content h2{
 	font-size:30px;
 	font-weight:300;
+	margin-bottom: 20px !important;
 }
 
 /* Media Query */

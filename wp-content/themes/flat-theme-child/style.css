@@ -224,6 +224,27 @@ a.contactanchor{
 	font-weight:400;
 }
 
+/* Blog */
+.date{
+	display:none !important;
+}
+
+.entry-content p{
+	font-size:21px;
+	line-height:1.58;
+	letter-spacing:-0.003em;
+}
+
+.entry-title{
+	font-size:36px;
+	font-weight:500;
+}
+
+.entry-content h1{
+	font-size:30px;
+	font-weight:400;
+}
+
 /* Media Query */
 
 @media (min-width: 768px){

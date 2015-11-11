@@ -225,6 +225,14 @@ a.contactanchor{
 }
 
 /* Blog */
+.post .entry-thumbnail img{
+	border-radius:0px !important;
+}
+
+.entry-thumbnail{
+	margin: 0px -20px 20px !important;
+}
+
 .date{
 	display:none !important;
 }
@@ -236,13 +244,20 @@ a.contactanchor{
 }
 
 .entry-title{
-	font-size:36px;
+	font-size:40px;
 	font-weight:500;
+	margin-bottom:0px;
+	margin-top:0px;
 }
 
 .entry-content h1{
-	font-size:30px;
+	font-size:36px;
 	font-weight:400;
+}
+
+.entry-content h2{
+	font-size:30px;
+	font-weight:300;
 }
 
 /* Media Query */
